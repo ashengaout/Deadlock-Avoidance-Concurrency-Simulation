@@ -1,8 +1,8 @@
-### 🍝 Deadlock Avoidance & Concurrency Simulation
+## 🍝 **Deadlock Avoidance & Concurrency Simulation**
 
 A Java-based implementation of the Dining Philosophers problem. This project focuses on managing thread synchronization and resource contention using Semaphores.
 
-#### 🚀 Features
+### 🚀 **Features**
 🧵 **Multithreading:** Models philosophers as independent concurrent threads.
 
 
@@ -12,10 +12,10 @@ A Java-based implementation of the Dining Philosophers problem. This project foc
 
 📂**Data Parsing:** Dynamically reads process metadata (PID, Arrival, Burst) from an external process.txt file.
 
-#### 🛠️ Technical Implementation
+### 🛠️ **Technical Implementation**
 To prevent a system-wide deadlock, the implementation forces the final philosopher to request resources in the opposite order of their peers. This ensures that at least one philosopher can always eat, preventing a total circular stall.
 
-#### 🏗️ Tech Stack
+### 🏗️ **Tech Stack**
 
 **Language:** Java 
 
